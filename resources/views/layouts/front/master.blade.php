@@ -3,17 +3,18 @@
 
 <!-- Head -->
 @include('layouts.front.head')
-<body class="">
+
+<body class="animsition">
 
     @include('layouts.front.navbar')
+    @include('layouts.front.aside')
 
 
     @yield('content')
 
 
     @include('layouts.front.footer')
-    {{-- @include('store.layout.footer_script') --}}
-    @yield('js')
+    @include('layouts.front.scripts')
 
 </body>
 

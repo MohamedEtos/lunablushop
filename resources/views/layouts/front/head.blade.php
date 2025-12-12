@@ -1,52 +1,38 @@
-<!doctype html>
-<html lang="en">
 
-<!-- Head -->
-<head>
-  <!-- Page Meta Tags-->
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="keywords" content="">
-
-  <!-- Custom Google Fonts-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Roboto:wght@300;400;700&display=auto"
-    rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}">
-  <link rel="mask-icon" href="./assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- Vendor CSS -->
-  <link rel="stylesheet" href="{{ asset('assets/css/libs.bundle.css') }}" />
-
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="{{asset('assets/css/theme.bundle.css')}}" />                     
-  <link rel="stylesheet" href="{{asset('assets/css/custm.css')}}" />                     
-
-  <!-- Fix for custom scrollbar if JS is disabled-->
-  <noscript>
-    <style>
-      /**
-          * Reinstate scrolling for non-JS clients
-          */
-      .simplebar-content-wrapper {
-        overflow: auto;
-      }
-    </style>
-  </noscript>
-
-  <!-- Page Title -->
-  <title>OldSkool | Bootstrap 5 HTML Template</title>
-
-</head>
+	<head>
+		<title>LunaBlu</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->	
+		<link rel="icon" type="image/png" href="{{ asset('assets/images/icons/favicon.png') }}"/>
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/iconic/css/material-design-iconic-font.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/linearicons-v1.0.0/icon-font.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animate/animate.css') }}">
+	<!--===============================================================================================-->	
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css-hamburgers/hamburgers.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animsition/css/animsition.min.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/select2/select2.min.css') }}">
+	<!--===============================================================================================-->	
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/daterangepicker/daterangepicker.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/slick/slick.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/MagnificPopup/magnific-popup.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/perfect-scrollbar/perfect-scrollbar.css') }}">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/util.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}">
+	<!--===============================================================================================-->
 
 
-<body class="">
+
